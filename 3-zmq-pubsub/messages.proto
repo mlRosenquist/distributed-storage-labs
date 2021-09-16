@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message weatherupdate
+{
+    uint64 zipcode = 1;
+    sint64 temperature = 2;
+    int64 relhumidity = 3;
+}

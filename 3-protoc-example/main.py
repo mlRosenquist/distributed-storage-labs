@@ -20,6 +20,7 @@ print(f"{encoded_pb_file} ({len(encoded_pb_file)} bytes)")
 # and call ParseFromString to reconstruct it from the serialized message
 pb_file2 = messages_pb2.file()
 pb_file2.ParseFromString(encoded_pb_file)
+
 # The parsed file has the same attributes as the original did
 assert(pb_file2.id == pb_file.id)
 assert(pb_file2.name == pb_file.name)
