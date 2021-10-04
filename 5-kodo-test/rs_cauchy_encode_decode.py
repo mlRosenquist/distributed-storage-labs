@@ -20,7 +20,6 @@ import random
 
 import kodo
 
-
 def main():
     """
     Simple example showing how to encode and decode a block
